@@ -1,4 +1,6 @@
-int  min(int a,int b)
+//int  min(int a,int b)
+extern int a,b;
+int min()
 {
 
   if(a<b)

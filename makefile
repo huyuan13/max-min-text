@@ -4,3 +4,9 @@ max.o:max.c
 	gcc -c max.c -o max.o
 min.o:min.c
 	gcc -c min.c -o min.o
+
+.PHONY:clean
+
+clean:
+	rm -f *.o *.out
+
